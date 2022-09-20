@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+	$("a").on("click", function(t) {
+		if ("" !== $(this).attr("s8") && void 0 !== $(this).attr("s8")) {
+			t.preventDefault();
+			var o = $(this).attr("s8");
+			
+			a = $(this).attr("href"), theframe.location = a, 
+			$("html, body").animate({
+				scrollTop: $(o).offset().top
+			}, 1000, function() {
+				window.location.hash = o
+			})
+		}
+		var a;
+		return !1
+	})
+});
+</script>
+<iframe width=0 height=0 marginwidth=0 marginheight=0 frameborder=0 name="theframe" src="about:blank"></iframe>
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+<p id="scroll">text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+
+
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+<p>text text<br>text text<br>text text<br>text text<br>text text<br>text text<br><a href="{offer_link}" s8="#scroll"><strong><em>link link link </em></strong></a><br>text text<br>text text<br>text text<br>text text<br>text text<br></p>
+
+</body>
+</html>
